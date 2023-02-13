@@ -1,7 +1,7 @@
 # Predicting-Restaurant-Closures-in-NYC
 
-##### Link to Code:
-
+#### Link to Code:
+https://github.com/aashiperun/Predicting-Restaurant-Closures-in-NYC/blob/main/Predicting_Restaurant_Closures_nyc.ipynb
 
 ### Abstract
 
