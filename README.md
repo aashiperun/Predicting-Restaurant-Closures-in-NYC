@@ -1,17 +1,17 @@
 # Predicting-Restaurant-Closures-in-NYC
 
-## ABSTRACT
+### Abstract
 
 The restaurant industry is essential to New York City’s social and economic fabric. From small, family-owned restaurants and food carts to four-star world-famous establishments, the city abounds with restaurants that offer cuisines from every corner of the globe. Restaurants lend vitality to each neighborhood and are integral to Manhattan’s central business districts and the city’s vibrant tourism industry, attracting millions of visitors each year. However, a lot of restaurants in NYC are vulnerable to closures within five years. This paper aims to investigate the key factors that contribute to restaurant closures in New York. We used machine learning techniques like Logistic Regression and Random Forest to make early predictions on restaurant closures. To improve our model, we performed the bias variance analysis, error analysis, dimensionality reduction and feature engineering after which we got an accuracy of 70.69% on our test data using the Logistic Regression model. The key factors that indicated increased likelihood of a restaurant closure were the latitude and longitude of the restaurant, number of inspection visits, and the type of cuisine. We concluded that the location and cuisine of the restaurant could have a huge impact on the longevity of a restaurant’s business.
 
-## 1. INTRODUCTION
+### 1. Introduction
 The motivation behind our project is to predict restaurant closures to ensure maintaining the continuity and stability of the restaurant industry. We believe that forecasting restaurant closures based on cuisines and neighborhoods would help upcoming restaurants to position themselves better in the market. The paper also investigates correlations between various factors that lead to restaurant closures. We explore different aspects of restaurant closures and aim to have an pplication result which would give a holistic analysis at the end of this project.
 
 The Department of Health and Mental Hygiene (DOHMH) of NYC conducts restaurant inspections regularly and updates the dataset daily which can be downloaded from the NYC Open Data website. Based on these inspections each restaurant is assigned either a Critical, Not Critical, or Not Applicable flag. For this project, we are interested in predicting whether a restaurant is likely to receive a critical flag based on important metrics like the grade received after inspection, location, and cuisine of the restaurant.
 
 The Covid-19 pandemic created a huge setback to the restaurant industry in NYC. People avoided eating out or visiting restaurants which made it extremely difficult for restaurant owners to keep the business going. They did not have enough resources to hire staff and maintain the high standards of cleanliness which led to increased restaurant closures. In our project we analyze our dataset in two parts, pre-covid and post-covid to understand how restaurant inspections were different and how they contributed to these closures.
 
-## 2. CONTEXT
+## 2. Context
 Machine Learning models are widely used in businesses that need to make accurate time-critical decisions which play an extremely important role in the success of the business.
 
 In the food industry, small and medium-sized restaurants often have trouble forecasting sales or closures due to a lack of data or funds for data analysis. This is where machine learning plays an important role in making sure that all restaurants are equipped with the same kind of data to give them a fair chance to compete in a cost-effective way. Previously, machine learning models have been built to analyze different contributing factors that lead to poor performance of a restaurant. Prior work explored the reviews from online restaurant finder services like Yelp to predict restaurant closures. Another factor that has been explored is how real-time events around the restaurant affect the business on a day-to-day basis. Few researchers also built a time-series model to forecast restaurant sales based on different points of the year.
@@ -34,7 +34,7 @@ For our project, the negative cases (accurately detecting restaurants that are n
 
 <img width="232" alt="image" src="https://user-images.githubusercontent.com/66789469/218353078-4b7b4dc0-0a1d-4ce1-a7fc-05f4b56cb296.png">
 
- ## 4. SETUP AND EXPERIMENTAL ANALYSIS
+ ### 4. Setup and Experimental Analysis
  
  #### 4.1 DATASET CLEANING
  
@@ -99,7 +99,7 @@ Manhattan has the highest chances of restaurant closure among the other boroughs
 <img width="293" alt="image" src="https://user-images.githubusercontent.com/66789469/218355512-3b3d88be-a807-440f-a251-cfed57396e75.png">
 On analyzing the pre pandemic [before 2020] and post pandemic data [2020 till now], we noticed that there is an increase in re-inspection of restaurants. This could be attributed to increased concern during and after the pandemic. However initial inspection rates decreased by 20%, this could be attributed to fewer restaurant openings during the pandemic.
 
-## 5. OUTCOMES AND RESULTS
+### 5. Outcomes and Results
 
 #### 5.1 ERROR ANALYSIS
 
@@ -123,7 +123,7 @@ Since the Logistic Regression model produced a higher development accuracy, we u
 #### 5.3 CONCLUSION
 Through this project, we wanted to explore how restaurant inspections impact the longevity of a restaurant. We initially hypothesized that the restaurant location and cuisine would be a key factor in the success of the restaurant. From our model’s predictions we were able to extract the most important feature - which was the latitude and longitude of the restaurant. We were also able to identify that restaurants located in Manhattan were more likely to close. Finally, using the model developed in this project, we can predict restaurant closures in NYC with an accuracy of 70.69% Our key takeaway is that restaurant closures not only depend on the location or cuisine but also on their total number of inspection visits.
 
-## 6. REFERENCES
+### 6. References
 1. https://data.cityofnewyork.us/Health/DOHMH -New-York-City-Restaurant-Inspection-Results /43nn-pn8j
 2. DOHMH New York City Restaurant Inspection Results | Kaggle
 3. Using Yelp Data to Predict Restaurant Closure | by Michail Alifierakis
