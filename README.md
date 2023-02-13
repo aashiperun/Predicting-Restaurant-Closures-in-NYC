@@ -1,5 +1,8 @@
 # Predicting-Restaurant-Closures-in-NYC
 
+##### Link to Code:
+
+
 ### Abstract
 
 The restaurant industry is essential to New York City’s social and economic fabric. From small, family-owned restaurants and food carts to four-star world-famous establishments, the city abounds with restaurants that offer cuisines from every corner of the globe. Restaurants lend vitality to each neighborhood and are integral to Manhattan’s central business districts and the city’s vibrant tourism industry, attracting millions of visitors each year. However, a lot of restaurants in NYC are vulnerable to closures within five years. This paper aims to investigate the key factors that contribute to restaurant closures in New York. We used machine learning techniques like Logistic Regression and Random Forest to make early predictions on restaurant closures. To improve our model, we performed the bias variance analysis, error analysis, dimensionality reduction and feature engineering after which we got an accuracy of 70.69% on our test data using the Logistic Regression model. The key factors that indicated increased likelihood of a restaurant closure were the latitude and longitude of the restaurant, number of inspection visits, and the type of cuisine. We concluded that the location and cuisine of the restaurant could have a huge impact on the longevity of a restaurant’s business.
